@@ -20,7 +20,7 @@ def less_puppies(number)
 end
 
 
-# 3. We've decided to give Rachel a little more control over her puppy obsession. Write a method called some_puppies that takes in two arguments - the number of puppies she has found and a maximum puppy allowance. This method should tell Rachel good job if she gets less than half her maximum allowance and to get back on her puppy restriction when she exceeds her maximum.
+# # 3. We've decided to give Rachel a little more control over her puppy obsession. Write a method called some_puppies that takes in two arguments - the number of puppies she has found and a maximum puppy allowance. This method should tell Rachel good job if she gets less than half her maximum allowance and to get back on her puppy restriction when she exceeds her maximum.
 
 def some_puppies(number, maximum)
   
@@ -45,3 +45,5 @@ def both_animals(number_of_puppies, number_of_cats)
     "Get back to your animal goals!"
   end 
 end 
+
+puts both_animals(2,1)
